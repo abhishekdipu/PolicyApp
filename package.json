@@ -1,0 +1,31 @@
+{
+  "name": "policyapp",
+  "version": "1.0.0",
+  "description": "app for handeling policies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "csv-parse": "^4.15.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-error": "0.0.2",
+    "express-async-errors": "^3.1.1",
+    "express-fileupload": "^1.2.1",
+    "helmet": "^4.4.1",
+    "joi": "^17.4.0",
+    "joi-objectid": "^3.0.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.3",
+    "node-schedule": "^2.0.0",
+    "os-utils": "^0.0.14",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.7"
+  }
+}
